@@ -59,6 +59,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+/* .logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+} */
 
 .logo span {
   color: var(--accent-color);
@@ -72,7 +76,7 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -88,7 +92,7 @@ body {
 }
 
 .contacts .link:hover,
-.contacts .link:active {
+.contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -110,6 +114,7 @@ body {
 .hero-title {
   color: var(--primary-color);
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -154,7 +159,7 @@ body {
 }
 
 .portfolio-btn:hover,
-.portfolio-btn:active,
+.portfolio-btn:focus,
 .active {
   color: var(--primary-color);
   background-color: var(--accent-color);
@@ -192,6 +197,6 @@ body {
 }
 
 .address:hover,
-.address:active {
+.address:focus {
   color: var(--accent-color);
 }
